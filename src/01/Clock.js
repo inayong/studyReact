@@ -1,7 +1,7 @@
 // import logo from '../logo.svg';
 import Clockimage from "./Clockimage";
 import Clocktime from "./Clocktime";
-import MyComN from "../03/MyComN";
+// import MyComN from "../03/MyComN";
 
 const Clock = () => {
 
@@ -15,7 +15,7 @@ const Clock = () => {
                 </p>
                 <div>현재시간 : {new Date().toLocaleTimeString()}</div> */}
                 <Clocktime />
-                <MyComN />
+                {/* <MyComN /> */}
             </header>
         </div>
     );
