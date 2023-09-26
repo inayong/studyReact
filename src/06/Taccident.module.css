@@ -1,0 +1,12 @@
+.ti2 {
+    color: red;
+}
+
+.ti1, .ti2 {
+    float:left;
+}
+
+.ti1 {
+    margin-right:10px;
+}
+
