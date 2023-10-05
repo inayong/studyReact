@@ -10,3 +10,8 @@
     margin-right:10px;
 }
 
+.bt1 {
+    background-color: brown;
+    color: white;
+    border: 1px solid brown;
+}

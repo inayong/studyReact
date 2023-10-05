@@ -1,6 +1,6 @@
 import style from "./Taccident.module.css";
 
-const TaccidentNav = ({title, c, setSel}) => { //probs
+const TaccidentNav = ({title, c, sel, setSel}) => { //probs
     // console.log("tn", c) //배열의 개수만큼 <li>만들어주면됨
 
     const handleClick = (item) => {
@@ -9,7 +9,11 @@ const TaccidentNav = ({title, c, setSel}) => { //probs
 
     const liTag = c.map((item, idx) => 
         <li key={`li${idx}`}>
-            <button onClick={() => handleClick(item) }>{item}</button>
+            <button 
+            className={item ===sel ? style.bt1 : style.bt2} 
+            onClick={() => handleClick(item) }>
+                {item}
+            </button>
         </li> 
     );
     return (

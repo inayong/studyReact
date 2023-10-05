@@ -3,9 +3,10 @@ import './App.css';
 // import Lotto from './02/Lotto';
 // import MyCom from './03/MyCom';
 // import MyDiv from './03/MyDiv';
-// import Box from './04/Box';
+import Box from './04/Box';
 // import Frcst from './05/Frcst';
-import Taccident from './06/Taccident';
+// import Taccident from './06/Taccident';
+// import MyRef from './07/MyRef';
 
 
 function App() {
@@ -14,9 +15,10 @@ function App() {
     // <Lotto />
     // <MyCom />
     // <MyDiv />
-    // <Box />
+    <Box />
     // <Frcst />
-    <Taccident />
+    // <Taccident />
+    // <MyRef />
   );
 }
 

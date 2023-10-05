@@ -19,3 +19,9 @@
     align-items: center; 
     margin: 5px;
   }
+  
+  .dt {
+    font-size: large;
+    font-weight: bold;
+    color: blue;
+  }
