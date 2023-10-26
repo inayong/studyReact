@@ -4,9 +4,9 @@ import { WiDayFog } from "react-icons/wi";
 
 const FcstNav = () => {
   return (
-    <nav className="flex justify-between items-center bg-slate-100">
+    <nav className="flex justify-between items-center px-6 py-2 bg-slate-100">
       <ul>
-        <li><strong>기상청 예보 <WiDayFog/></strong></li>
+        <li><strong>기상청 예보<WiDayFog/></strong></li>
       </ul>
       <ul>
         <Link to='/'>
