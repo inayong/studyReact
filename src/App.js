@@ -11,7 +11,8 @@ import './App.css';
 // import Busan from './09/Busan';
 // import RouteMain from './10/RouteMain';
 // import Fcst from './11/Fcst';
-import Fcst from './12/Fcst';
+// import Fcst from './12/Fcst';
+import DivMain from './13/DivMain';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
     // <Busan />
     // <RouteMain />
     // <Fcst />
-    <Fcst/>
+    // <Fcst/>
+    <DivMain />
   );
 }
 

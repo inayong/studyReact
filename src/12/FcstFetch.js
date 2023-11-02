@@ -12,6 +12,7 @@ const FcstFetch = () => {
 
     //환경변수 값 가져오기
     const apikey = process.env.REACT_APP_API_KEY;
+    // console.log(apikey)
 
     //상태변수
     const [titem, setTitem] = useState([]);
@@ -33,7 +34,7 @@ const FcstFetch = () => {
             url = url + `&nx=${x}&ny=${y}&dataType=json`;
           }
 
-        //   console.log("url", url)
+          console.log("url", url)
 
         fetch(url)
           .then(resp => resp.json())
